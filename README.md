@@ -23,7 +23,7 @@ Clonar el repositorio de github e instalar las dependencias:
 
 ```bash
 git clone <https://github.com/francocgl/light-it-challenge.git>
-cd light-it
+cd light-it-challenge
 npm install
 npm start
 ```
