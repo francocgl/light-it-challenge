@@ -30,6 +30,7 @@ npm start
 
 ## Estructura de Carpetas
 
+```bash
 /src
 |-- /components
 | |-- /atoms
@@ -43,6 +44,7 @@ npm start
 |-- MainContext.tsx
 |-- customTheme.ts
 |-- main.tsx
+```
 
 - ./components: Contiene los componentes reutilizables de React jerarquizados en la metodología `Atomic Design` para mejor escalabilidad y mantenimiento.
 - ./config: Contiene los endpoints para las querys.
