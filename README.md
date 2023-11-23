@@ -46,11 +46,11 @@ npm start
 |-- main.tsx
 ```
 
-- ./components: Contiene los componentes reutilizables de React jerarquizados en la metodología `Atomic Design` para mejor escalabilidad y mantenimiento.
-- ./config: Contiene los endpoints para las querys.
-- ./helpers: Funciones que se pueden reutilizar a lo largo del proyecto.
-- ./hooks: Contiene los React Hooks para editar, agregar y listar los patients utilizando `React Query`.
-- ./types: Carpeta para las tipados globales.
-- .MainContext.tsx: El contexto global del proyecto para abrir o cerrar el modal desde cualquier componente.
-- .customTheme.tsx: El default theme de `Material UI` para la interfaz.
-- .main.tsx: index del proyecto.
+- `./components` Contiene los componentes reutilizables de React jerarquizados en la metodología `Atomic Design` para mejor escalabilidad y mantenimiento.
+- `./config` Contiene los endpoints para las querys.
+- `./helpers` Funciones que se pueden reutilizar a lo largo del proyecto.
+- `./hooks` Contiene los React Hooks para editar, agregar y listar los patients utilizando `React Query`.
+- `./types` Carpeta para las tipados globales.
+- `.MainContext.tsx` El contexto global del proyecto para abrir o cerrar el modal desde cualquier componente.
+- `.customTheme.tsx` El default theme de `Material UI` para la interfaz.
+- `.main.tsx` index del proyecto.
