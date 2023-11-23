@@ -15,9 +15,9 @@ Este es un challenge para la start-up Light It hecho por Franco Martin Cagliolo.
 
 ### Prerrequisitos
 
-Make sure you have Node.js `^v.18.0.0` and npm (or yarn) installed on your machine.
+Tene la version `^v.18.0.0` de Node.js y npm (o yarn) instalado en tu equipo.
 
-### Installation
+### Instalación
 
 Clonar el repositorio de github e instalar las dependencias:
 
