@@ -22,7 +22,7 @@ Tene la version `^v.18.0.0` de Node.js y npm (o yarn) instalado en tu equipo.
 Clonar el repositorio de github e instalar las dependencias:
 
 ```bash
-git clone <>
+git clone <https://github.com/francocgl/light-it-challenge.git>
 cd light-it
 npm install
 npm start
