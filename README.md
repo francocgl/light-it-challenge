@@ -1,25 +1,25 @@
 # Light It Challenge
 
-Este es un challenge para la start-up Light It hecho por Franco Martin Cagliolo.
+This is a challenge for the start-up Light It created by Franco Martin Cagliolo.
 
 ## Características
 
-- **React y TypeScript**: Desarrollo del proyecto con React y TypeScript para tipado estático y mejor mantenibilidad del código.
-- **Vite**: Utilización de Vite como herramienta de construcción para un desarrollo rápido y construcciones optimizadas en producción.
-- **Material-UI**: Integración de componentes de Material-UI para un diseño de interfaz consistente y simplificado.
-- **React Query**: Integración de React Query para gestión de datos y optimización de peticiones al servidor.
-- **Formik**: Manejo de formularios y su estado con Formik, que simplifica el manejo de formularios en React.
-- **Yup Validation**: Uso de la validación de esquemas Yup junto con Formik para una validación fácil y sólida de formularios.
+- **React y TypeScript**: Development of the project using React and TypeScript for static typing and better code maintainability.
+- **Vite**: Usage of Vite as a build tool for quick development and optimized production builds.
+- **Material-UI**: Integration of Material-UI components for a consistent and simplified interface design.
+- **React Query**: Integration of React Query for data management and optimization of server requests.
+- **Formik**: Handling of forms and their state with Formik, simplifying form management in React.
+- **Yup Validation**: Use of Yup schema validation alongside Formik for easy and robust form validation.
 
-## Inicio
+## Getting Started
 
-### Prerrequisitos
+### Prerequisites
 
-Tene la version `^v.18.0.0` de Node.js y npm (o yarn) instalado en tu equipo.
+Ensure you have Node.js `^v.18.0.0` and npm (or yarn) installed on your machine.
 
-### Instalación
+### Installation
 
-Clonar el repositorio de github e instalar las dependencias:
+Clone the GitHub repository and install dependencies:
 
 ```bash
 git clone <https://github.com/francocgl/light-it-challenge.git>
@@ -28,7 +28,7 @@ npm install
 npm start
 ```
 
-## Estructura de Carpetas
+## Folder Structure
 
 ```bash
 /src
@@ -46,11 +46,11 @@ npm start
 |-- main.tsx
 ```
 
-- `./components` Contiene los componentes reutilizables de React jerarquizados en la metodología `Atomic Design` para mejor escalabilidad y mantenimiento.
-- `./config` Contiene los endpoints para las querys.
-- `./helpers` Funciones que se pueden reutilizar a lo largo del proyecto.
-- `./hooks` Contiene los React Hooks para editar, agregar y listar los patients utilizando `React Query`.
-- `./types` Carpeta para las tipados globales.
-- `.MainContext.tsx` El contexto global del proyecto para abrir o cerrar el modal desde cualquier componente.
-- `.customTheme.tsx` El default theme de `Material UI` para la interfaz.
-- `.main.tsx` index del proyecto.
+- `./components` Contains reusable React components organized in the `Atomic Design` methodology for better scalability and maintenance.
+- `./config` Holds the endpoints for the queries.
+- `./helpers` Functions that can be reused throughout the project.
+- `./hooks` Contains React Hooks for editing, adding, and listing patients using `React Query`.
+- `./types` Folder for global typings.
+- `.MainContext.tsx` The global context of the project to open or close the modal from any component.
+- `.customTheme.tsx` The default theme for the Material UI interface.
+- `.main.tsx` Project's index file.
